@@ -1,14 +1,14 @@
-### 2. Lesson: Use Docker Compose to create a persistent todo service
+### 3. Lesson: Use Docker Compose to create a persistent todo service
 
 1. Change your current directory to the third lesson
 
 ~~~BASH
-cd GCB-Docker-master/3_lesson
+cd ~/GCB-Docker-master/3_lesson
 ~~~
 
-2. The directory contains this [Dockerfile](Dockerfile)
+2. The directory contains this [Dockerfile](Dockerfile) and this [docker-compose](docker-compose.yml) yaml
 
-3. Build your compose docker
+3. Build your docker containers
 
 ~~~BASH
 docker-compose build 
