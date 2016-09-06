@@ -27,7 +27,7 @@ unzip master.zip
 5.Change directory
 
 ~~~BASH
-cd GCB-Docker-master/2_lesson
+cd GCB-Docker-master/1_lesson
 ~~~
 
 6.Install all Python libraries
@@ -57,7 +57,7 @@ docker commit <id> webservice
 10.Start the webservice in background
 
 ~~~BASH
-docker run -p 5000:5000 -d webservice python /GCB-Docker-master/2_lesson/app.py
+docker run -p 5000:5000 -d webservice python /GCB-Docker-master/1_lesson/app.py
 ~~~
 
 11.You can inspect logs with docker logs
